@@ -1,0 +1,63 @@
+/* Font e colore di sfondo generali */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* colore Bootstrap-friendly */
+    color: #212529;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #dcefff; /* leggero effetto hover */
+}
+
+/* Card Bootstrap override */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Pulsanti */
+.btn {
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    color: #6c757d;
+    font-size: 0.9rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Titoli */
+h1, h2, h3, h4 {
+    color: #343a40;
+    font-weight: 600;
+}
+
+/* Form inputs */
+input, textarea, select {
+    border-radius: 4px !important;
+}
+
+/* Form focus */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
